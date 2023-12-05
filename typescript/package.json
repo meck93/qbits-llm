@@ -1,0 +1,42 @@
+{
+    "name": "copilot-demo-app",
+    "version": "0.1.0",
+    "author": "Quatico Solutions AG (https://www.quatico.com)",
+    "license": "SEE LICENSE IN LICENSE",
+    "scripts": {
+        "test": "jest --verbose --coverage",
+        "test:update-snapshots": "yarn test -u",
+        "test:watch": "jest --watch",
+        "lint": "eslint \"{src,test}/**/*.{js,ts,tsx}\" --cache --fix --color",
+        "check:types": "tsc -p tsconfig.json --noEmit"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@swc/core": "^1.3.14",
+        "@swc/jest": "^0.2.23",
+        "@testing-library/jest-dom": "^5.16.5",
+        "@testing-library/react": "^13.4.0",
+        "@types/jest": "^29.2.1",
+        "@types/node": "^18.11.9",
+        "@types/react": "^18.0.24",
+        "@types/react-dom": "^18.0.8",
+        "@typescript-eslint/eslint-plugin": "^5.42.0",
+        "@typescript-eslint/parser": "^5.42.0",
+        "cross-env": "7.0.3",
+        "eslint": "^8.26.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-import-resolver-alias": "^1.1.2",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-jest": "^27.1.3",
+        "eslint-plugin-jsx-a11y": "^6.6.1",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-plugin-react": "^7.31.10",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "eslint-plugin-testing-library": "^5.9.1",
+        "jest": "^29.2.2",
+        "jest-environment-jsdom": "^29.2.2",
+        "prettier": "^2.7.1",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.2.2"
+    }
+}

@@ -1,0 +1,85 @@
+HELP.md
+.gradle
+build/
+**/build/**
+**/generated/**
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+**/src/main/generated/**/*.java
+**/frontend/index.html
+**/serviceNameMappings.properties
+**/lib/**
+*.tgz
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/*
+*.iml
+!.idea/codeStyles
+!.idea/inspectionProfiles
+!.idea/runConfigurations
+!.idea/checkstyle-idea.xml
+!.idea/jsLibraryMappings.xml
+!.idea/jsLinters
+!.idea/prettier.xml
+!.idea/vcs.xml
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.DS_Store
+**/target/**
+node_modules/
+
+BusinessPartnersResponse.java
+/.npmrc
+**/.flattened-pom.xml
+**/testing/behaviorapi-spring/.npmrc
+**/testing/behaviorapi-spring/package.json
+**/testing/behaviorapi-spring/tsconfig.json
+**/testing/behaviorapi-spring/types.d.ts
+
+/.idea/jsLibraryMappings.xml
+
+# dependencies
+node_modules
+
+# testing
+coverage
+test-results
+
+# production
+dist
+bin
+lib
+storybook-static
+kus-contracts.js
+
+# misc
+*.log
+*.iws
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+cucumber-report.json
+
+# tools cache
+.eslintcache
+
+# swagger source file
+swagger.json
