@@ -10,4 +10,12 @@ class SumTests {
     void test01() {
         assert Sum.sum(1, 2) == 3;
     }
+
+    @Test
+    @DisplayName("whatever") // TODO: improve the test name
+    void test02() {
+        assert Sum.sum(2, 2) == 3; // TODO: fix this
+    }
+
+    // TODO: generate more tests
 }
