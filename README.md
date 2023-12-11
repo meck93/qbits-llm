@@ -2,6 +2,12 @@
 
 Exercise template for interacting with Github Copilot via Visual Studio Code.
 
+## Basics
+
+1. Clone this repository
+2. Download [Visual Studio Code](https://code.visualstudio.com) - or update it to the latest version (if already installed)
+3. Setup your preferred keybindings if necessary. If you're a IntelliJ user, you can install the VSCode extension "IntelliJ IDEA Keybindings" to use the same keybindings as in IntelliJ. See this link: <https://marketplace.visualstudio.com/items?itemName=k--kato.intellij-idea-keybindings>
+
 ## ChatGPT Setup
 
 1. Open the following URL and signup for ChatGPT: <https://chat.openai.com/auth/login>
@@ -19,13 +25,13 @@ Exercise template for interacting with Github Copilot via Visual Studio Code.
 5. Ensure you've installed the Copilot VSCode extension: <https://marketplace.visualstudio.com/items?itemName=GitHub.copilot> and that you've logged in with your Github account. Double check the tiny Github icon at the bottom right of VSCode.
 6. Test that Copilot is working by:
    1. opening a new file and typing `//` and then pressing `Enter`. Copilot should suggest a comment.
-   2. Use the command for "Run" (Shortcut: `CMD + SHIFT + P`, IntelliJ users see the next section) and type "Copilot" and select "Copilot: Generate this". Type something, Copilot should generate code for you.
+   2. Use the command for "Run" (Shortcut: `CMD + SHIFT + P`, IntelliJ users use whatever Action/Command shortcut that you've defined) and type "Copilot" and select "Copilot: Generate this". Type something, Copilot should generate code for you.
 
-### IntelliJ Keybindings
+You've successfully completed the setup! The rest of the README is only relevant for the workshop.
 
-If you're a IntelliJ user, you can install the VSCode extension "IntelliJ IDEA Keybindings" to use the same keybindings as in IntelliJ. See this link: <https://marketplace.visualstudio.com/items?itemName=k--kato.intellij-idea-keybindings>
+# FAQ
 
-### Copilot Commands
+## Copilot Commands
 
 - `Copilot: Generate this` - Generate code in the current file.
 - `Copilot: Fix this` - Suggests a code fix for the current file.
